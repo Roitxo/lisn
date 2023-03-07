@@ -6,6 +6,7 @@
         <div class="w-10/12">
             <Topbar />
             <NuxtPage class="content"/>
+            <FixedPlayer />
         </div>
     </div>
 </template>
@@ -27,6 +28,7 @@
         --bg-nav: #0e1629;
         --bg: #1A1A2E;
         --color: white;
+        --low-color: rgb(163, 160, 160);
         --border-color: .5px solid rgba(255, 255, 255, 0.048);
     }
 
@@ -34,6 +36,7 @@
         --bg-nav: #E1E5EA;
         --bg: #FAF3F3;
         --color: rgb(17, 16, 16);
+        --low-color: rgb(56, 56, 56);
         --border-color: .5px solid rgba(5, 5, 5, 0.144);
     }
 
